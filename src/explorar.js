@@ -1,7 +1,4 @@
 const datos= require("./datos");
-const objDatos= new datos();
-
-const ventas = objDatos.ventas;
 
 console.log("Registros:", ventas.length);
 console.log("Primero:", ventas[0]);
